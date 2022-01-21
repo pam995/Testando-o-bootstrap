@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando uso de Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!--Link para importar o CSS do bootstrap baixado para a página-->
+    <link rel="stylesheet" type="text/css" href="CSS/style.css"> <!--Criando a própria referencia da folha de estilo do CSS que será utilizado na página-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/globallabs.png" width="130" height="130">
+        </a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Criando barra de navegação usando o bootstrap. A barra de navegação é grande(expand-lg) e clara(light)-->
+   
+    <section id="quem-somos">
+        <div class="container-fluid">
+            <h3>Quem Somos</h3>
+            <img src="img/team.jpg" class="rounded-circle">
+            <h5>Somos um time que busca trazer para você os melhores resultados possíveis</h5>
+        </div>
+   </section>
+
+   <section id="parceiros">
+       <div class="container-fluid-parceiros">
+           <h3>Parceiros</h3>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-4">
+                       <img src="img/dio.png">
+                   </div>
+                   <div class="col-md-4">
+                    <img src="img/dio.png">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/dio.png">
+                </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <section id="servicos">
+       <div class="container-fluid-servicos">
+           <h3>Serviços</h3>
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-6">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at mi in lorem aliquam aliquet ac sit amet massa. Integer pretium euismod tempor. Ut consectetur quam nibh, ut fermentum sem elementum eget. Sed ut ornare orci, eu tristique risus.</p>
+                        <img src="img/app.jpg">
+                   </div>
+                   <div class="col-lg-6">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at mi in lorem aliquam aliquet ac sit amet massa. Integer pretium euismod tempor. Ut consectetur quam nibh, ut fermentum sem elementum eget. Sed ut ornare orci, eu tristique risus.</p>
+                        <img src="img/site-1.jpg">
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <footer>
+       <p>Desenvolvido por Pâmela Oliveira</p>
+   </footer>
+</body>
+</html>

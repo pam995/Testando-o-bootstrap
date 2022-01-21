@@ -1,0 +1,69 @@
+body{
+    font: 20px;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+.navbar {
+    background-color: #F5D0A9;
+}
+
+/*QUEM SOMOS*/
+.container-fluid {
+    background-color: #F6CEE3;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-fluid h5{
+    color: gray;
+    font-size: 18px;
+}
+
+.container-fluid img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*PARCEIROS*/
+.container-fluid-parceiros {
+    background-color: #A9BCF5;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-md-4 img{
+    width: 80%;
+}
+
+/*SERVIÇOS*/
+.container-fluid-servicos {
+    background-color: #A9F5BC;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col-lg-6 img{
+    width: 60%;
+}
+
+.col-lg-6 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: grey;
+}
+
+/*RODAPÉ*/
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 12px;
+    padding-right: 12px;
+}
